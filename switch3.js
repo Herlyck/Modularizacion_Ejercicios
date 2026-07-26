@@ -10,7 +10,10 @@ function main() {
     ataqueMagico(opcion);
 }
 main();
-
+/**
+ * Valor numerico del codigo de hechizo
+ * @param {Number} opcion el codigo numerico de cada hechizo
+ */
 function ataqueMagico(opcion) {
     switch (opcion) {
         case NIVEL_1:
