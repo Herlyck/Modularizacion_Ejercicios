@@ -7,27 +7,26 @@ function main() {
     let opcion = 0;
     opcion=Number(leer("ingrese codigo: "));
 
+    ataqueMagico(opcion);
+}
+main();
+
+function ataqueMagico(opcion) {
     switch (opcion) {
         case NIVEL_1:
-            console.log("nivel 1");
-            
+            console.log("Wingardium Leviosa");
             break;
         case NIVEL_1_A:
-            console.log("nivel 1a");
-            
+            console.log("Expelliarmus");
             break;
         case NIVEL_2:
-            console.log("nivel 2");
-            
+            console.log("Expecto Patronum");
             break;
         case NIVEL_2_A:
-            console.log("nivel 2a");
-            
+            console.log("Avadara kedavra");
             break;
         default:
-            console.log("error de numero");
-            
+            console.log("El codigo es incorrecto");
             break;
     }
 }
-main();
